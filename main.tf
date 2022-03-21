@@ -1,6 +1,6 @@
 # Configura o projeto GCP
 provider "google" {
-  credentials = "${file("jovial-sound-343419-5cb8a65731c8.json")}"
+  credentials = "${file("NOME DO CHAVE CRIADO DO PROJETO")}"
   project     = "${var.project_id}"
   region      = "${var.regiao}"
 }
